@@ -1,0 +1,13 @@
+nav {
+  display: inline-block;
+  background-color: skyblue;
+  width: 330px;
+  vertical-align: baseline;
+}
+nav > ul {
+  list-style-type: square;
+}
+nav > ul > li {
+  padding-bottom: 15px;
+  font-weight: bold;
+}

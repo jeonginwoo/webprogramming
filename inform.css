@@ -1,0 +1,25 @@
+table {
+  border: 1px solid rgb(121, 121, 121);
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid rgb(121, 121, 121);
+}
+th {
+  width: 200px;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+td {
+  padding: 10px;
+}
+tbody tr:nth-child(odd) {
+  /* 홀수번째 칸에 색상 넣기 */
+  background: rgb(180, 180, 180);
+}
+.none {
+  list-style-type: none;
+  padding-top: 5px;
+}

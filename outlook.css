@@ -1,0 +1,9 @@
+#article > ul {
+  list-style-type: square;
+}
+#article > ul > li {
+  font-weight: bold;
+}
+#article > ul > p {
+  margin-bottom: 40px;
+}

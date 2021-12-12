@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>코로나 행동수칙</title>
+    <link href="frame.css" type="text/css" rel="stylesheet" />
+    <link href="prevention.css" type="text/css" rel="stylesheet" />
+    <script src="show.js"></script>
+  </head>
+  <body>
+    <header id="banner">
+      <div id="title"><a href="covid19.html">Covid-19</a></div>
+      <ul id="subtitle">
+        <li><a href="covid19-process.html">코로나 전개 과정</a></li>
+        <li><a href="covid19-inform.html">코로나 정보</a></li>
+        <li><a href="covid19-prevention.html">코로나 행동수칙</a></li>
+        <li><a href="covid19-outlook.html">코로나 전망</a></li>
+      </ul>
+    </header>
+    <section id="section">
+      <header>
+        <h3>코로나 행동수칙</h3>
+        <hr />
+      </header>
+      <article>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <ul>
+                  <li>
+                    일반국민 행동수칙
+                    <input
+                      id="prevention1"
+                      type="button"
+                      value="보기"
+                      onclick="show(this)"
+                    />
+                  </li>
+                  <li style="padding-bottom: 7px">
+                    65세 이상 어르신을 위한 건강수칙
+                  </li>
+                  <ol type="1">
+                    <li style="padding-bottom: 7px">
+                      생활 속
+                      <input
+                        id="prevention2"
+                        type="button"
+                        value="보기"
+                        onclick="show(this)"
+                      />
+                    </li>
+                    <li style="padding-bottom: 15px">
+                      외부활동
+                      <input
+                        id="prevention3"
+                        type="button"
+                        value="보기"
+                        onclick="show(this)"
+                      />
+                    </li>
+                  </ol>
+                  <li>
+                    호흡기감염 의심환자 행동수칙
+                    <input
+                      id="prevention4"
+                      type="button"
+                      value="보기"
+                      onclick="show(this)"
+                    />
+                  </li>
+                  <li>
+                    자가격리환자 생활수칙
+                    <input
+                      id="prevention5"
+                      type="button"
+                      value="보기"
+                      onclick="show(this)"
+                    />
+                  </li>
+                </ul>
+              </td>
+              <td id="prevention">
+                <img
+                  src="image/general_public_rules.jpg"
+                  width="600"
+                  height="850"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+  </body>
+</html>

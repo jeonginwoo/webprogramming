@@ -1,0 +1,62 @@
+#banner {
+  color: white;
+  border-radius: 20px;
+  background-image: url(./image/Covid-19-Banner.webp); /*코로나 관련 이미지 삽입*/
+  background-position: center;
+  background-size: 100%;
+  width: 1175px;
+  height: 200px;
+}
+#title {
+  /* Covid-19 */
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 80px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  text-shadow: 0 0 30px;
+}
+#subtitle {
+  /* 코로나 전개 과정 / 코로나 정보 / 코로나 행동수칙 / 코로나 전망 */
+  height: 64px;
+  border-radius: 0 0 20px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+#subtitle > li {
+  display: inline;
+  text-shadow: 0 0 30px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 20px 0px 10px;
+}
+#subtitle > li:hover {
+  text-shadow: 0 0 10px white;
+}
+body {
+  background-color: rgb(121, 121, 121); /* 짙은 회색 */
+  height: auto;
+  margin: auto;
+  width: 1175px;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+#section {
+  border-radius: 20px;
+  background-color: rgb(219, 219, 219);
+  height: auto;
+  margin-top: 30px;
+  padding: 80px 100px 80px 100px;
+}
+hr {
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(121, 121, 121);
+  margin-bottom: 60px;
+}
